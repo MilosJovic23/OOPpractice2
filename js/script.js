@@ -14,7 +14,6 @@
 class Vozilo {
 	boja;
 	vrsta;
-
 	constructor(boja, vrsta) {
 		const dozvoljeneVrste = ["automobil", "plovilo", "letelica"];
 		// console.log(vrsta);
@@ -29,7 +28,6 @@ class Vozilo {
 		console.log("boja auta je " + this.boja + " a vrsta je " + this.vrsta);
 	}
 }
-
 let audi = new Vozilo("plava", "plovilo");
 audi.ispis();
 
