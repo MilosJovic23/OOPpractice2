@@ -15,8 +15,8 @@ class Vozilo {
 	boja;
 	vrsta;
 	constructor(boja, vrsta) {
+
 		const dozvoljeneVrste = ["automobil", "plovilo", "letelica"];
-		// console.log(vrsta);
 		if (!dozvoljeneVrste.includes(vrsta)) {
 			throw new Error("Morate navesti vrstu vozila");
 		}
@@ -37,13 +37,14 @@ class Automobil {
 	brojVrata;
 	gorivo;
 	constructor(marka, model, brojVrata, gorivo) {
+
 		const markaAuta = ["Audi", "BMW", "Mercedes"];
 		const vrataAutomobila = ["3", "5"];
 		const vrstaGoriva = ["Benzin", "Dizel", "Metan"];
 		const modelAudija = ["A4", "A6"];
 		const modelBMW = ["M5", "M3", "X1"];
-		const modelMercedesa=["S-class","SLS AMG","G-class"]
-		// console.log("test")
+		const modelMercedesa=["S-class","SLS AMG","G-class"];
+
 		if (!vrataAutomobila.includes(brojVrata)) {
 			throw new Error("Broj vrata moze biti 3 ili 5");
 		}
