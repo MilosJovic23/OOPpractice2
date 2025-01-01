@@ -1,15 +1,4 @@
-// Domaci:
 
-// * Napraviti klasu Vozilo
-//      * Boja
-//      * Vrsta(vrsta moze biti automobil, letelica ili plovilo)
-//
-//  * Napraviti klasu Automobil
-//      * Marka ( moze biti BMW ili Audi ili Mercedes)
-//      * Model ( ako je BMW(M5,M3,X1) ako je audi(A4 i A6) a ako je mercedes (G-class, S-class, SLS AMG))
-//      * Broj vrata (3 ili 5)
-//      * Gorivo (moze biti Benzini lil Dizel ili Metan)
-//
 
 class Vozilo {
 	boja;
